@@ -1,15 +1,11 @@
 import "./App.css";
-import Testimonials from "./components/Testimonials";
-
-
 
 function App() {
   return (
-  <div className="App">
-  Hello World
-  <Testimonials/>
-  </div>
+    <div className="App">
+      {/* Hello World */}
+    </div>
   );
-};
+}
 
 export default App;

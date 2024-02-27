@@ -1,4 +1,5 @@
 import React from "react";
+import GenBtn from "../buttons/GenBtn";
 
 const testimonialsData = [
   {
@@ -39,7 +40,11 @@ const Testimonial = ({ name, text, image, story }) => {
       <div className="testimonial-content">
         <p className="testimonial-text">{text}</p>
         <div className="testimonial-author">
-        <img src={image} alt={`${name}'s image`} className="testimonial-image" />
+          <img
+            src={image}
+            alt={`${name}'s image`}
+            className="testimonial-image"
+          />
           <p className="author-name">{name}</p>
           <p className="author-story">{story}</p>
         </div>
@@ -50,19 +55,26 @@ const Testimonial = ({ name, text, image, story }) => {
 
 const Testimonials = () => {
   return (
-    <div className="testimonials">
-      <div>
-        <h3>Our Testimonials</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget
-          elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget
-          habitasse in velit fringilla feugiat senectus in.
-        </p>
+    <>
+      <div className="testimonials">
+        <div>
+          <h3>Our Testimonials</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget
+            elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum
+            eget habitasse in velit fringilla feugiat senectus in.
+          </p>
+        </div>
+        {testimonialsData.map((testimonial, index) => (
+          <Testimonial key={index} {...testimonial} />
+        ))}
       </div>
-      {testimonialsData.map((testimonial, index) => (
-        <Testimonial key={index} {...testimonial} />
-      ))}
-    </div>
+
+      <div>
+        {/* <h1>Button Example</h1> */}
+        <GenBtn className="">Hero!</GenBtn>
+      </div>
+    </>
   );
 };
 

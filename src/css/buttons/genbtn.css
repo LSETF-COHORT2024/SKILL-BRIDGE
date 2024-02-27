@@ -1,0 +1,15 @@
+/* GenBtn.css */
+.gen-btn {
+  background-color: var(--orange50);
+  color: var(--gray15);
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.gen-btn:hover {
+  background-color: var(--orange50);
+  color: var(--white);
+}

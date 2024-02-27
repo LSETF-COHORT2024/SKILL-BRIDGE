@@ -1,5 +1,23 @@
-.logo {
-  height: 50px;
-  overflow: hidden;
-  box-sizing: border-box;
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 75rem;
+  margin: 0 auto;
 }
+
+.column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  border-radius: 4px;
+  background-color: var(--white95);
+  /* margin-right: 20px;  */
+  justify-content: center;
+}
+
+.logo img {
+  width: 11rem;
+}
+
