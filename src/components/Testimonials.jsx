@@ -1,5 +1,6 @@
 import React from "react";
-import GenBtn from "../buttons/GenBtn";
+import "../css/components/testimonials.css";
+import "../css/styleguide.css";
 
 const testimonialsData = [
   {
@@ -33,12 +34,13 @@ const testimonialsData = [
   },
   //   testimonials objects
 ];
-
 const Testimonial = ({ name, text, image, story }) => {
   return (
     <div className="testimonial">
       <div className="testimonial-content">
         <p className="testimonial-text">{text}</p>
+      </div>
+      <div className="lower">
         <div className="testimonial-author">
           <img
             src={image}
@@ -46,8 +48,8 @@ const Testimonial = ({ name, text, image, story }) => {
             className="testimonial-image"
           />
           <p className="author-name">{name}</p>
-          <p className="author-story">{story}</p>
         </div>
+        <button className="author-story-btn">{story}</button>
       </div>
     </div>
   );
@@ -57,22 +59,19 @@ const Testimonials = () => {
   return (
     <>
       <div className="testimonials">
-        <div>
-          <h3>Our Testimonials</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget
-            elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum
-            eget habitasse in velit fringilla feugiat senectus in.
-          </p>
+        <div className="header">
+          <div className="header-text">
+            <h3>Our Testimonials</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam
+              eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac
+              cum eget habitasse in velit fringilla feugiat senectus in.
+            </p>
+          </div>
         </div>
         {testimonialsData.map((testimonial, index) => (
           <Testimonial key={index} {...testimonial} />
         ))}
-      </div>
-
-      <div>
-        {/* <h1>Button Example</h1> */}
-        <GenBtn className="">Hero!</GenBtn>
       </div>
     </>
   );

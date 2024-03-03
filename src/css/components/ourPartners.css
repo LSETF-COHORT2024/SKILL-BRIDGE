@@ -1,8 +1,12 @@
 .container {
   display: flex;
   justify-content: center;
-  max-width: 75rem;
-  margin: 0 auto;
+  /* max-width: 75rem; */
+  align-items: center;
+  top: 0;
+  position: fixed;
+  margin: 1rem;
+  padding: 25rem;
 }
 
 .column {
@@ -18,6 +22,5 @@
 }
 
 .logo img {
-  width: 11rem;
+  width: 10rem;
 }
-

@@ -1,5 +1,5 @@
 :root {
-  /* gray  */
+  /* gray Shade  */
   --gray10: #191919;
   --gray15: #262626;
   --gray20: #333333;
@@ -9,14 +9,14 @@
   --gray60: #96969a;
   --gray70: #b3b3b3;
 
-  /* white */
+  /* white Shade */
   --white: #fff;
   --white90: #e4e4e7;
   --white95: #f1f1f3;
   --white97: #f7f7f8;
   --white99: #fcfcfd;
 
-  /* orange  */
+  /* orange Shade  */
   --orange50: #ff9500;
   --orange70: #ffbff6;
   --orange75: #ffca80;
@@ -25,4 +25,7 @@
   --orange95: #fff4e5;
   --orange97: #fff9f0;
   --orange99: #fffdfa;
+
+--font: "Be Vietnam Pro", sans-serif;
+
 }

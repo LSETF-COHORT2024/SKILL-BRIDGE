@@ -1,6 +1,5 @@
 import React from "react";
-import '../css/components/pricecard.css'
-
+import "../css/components/pricecard.css";
 
 const PriceCard = ({ title, price, features }) => {
   return (
@@ -42,7 +41,7 @@ const Pricing = () => {
   return (
     <div className="pricing">
       <h1>Our Pricing</h1>
-      <div className="price-cards">
+      <div className="price-cards-container">
         <PriceCard title="Free Plan" price="$0" features={freePlanFeatures} />
         <PriceCard
           title="Pro Plan"

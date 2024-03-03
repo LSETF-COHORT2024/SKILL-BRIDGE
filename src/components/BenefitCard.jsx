@@ -1,14 +1,20 @@
 import React from "react";
-import '../css/components/benefitcard.css'
-
+import "../css/components/benefitcard.css";
 
 const BenefitCard = ({ number, title, description }) => {
   return (
-    <div className="benefit-card">
-      <div className="benefit-number">{number}</div>
-      <h3 className="benefit-title">{title}</h3>
-      <p className="benefit-description">{description}</p>
-    </div>
+    <>
+
+        <div className="benefit-card">
+          <div benefit-num>
+            <div className="benefit-number">{number}</div>
+          </div>
+          <div>
+            <h3 className="benefit-title">{title}</h3>
+            <p className="benefit-description">{description}</p>
+          </div>
+        </div>
+    </>
   );
 };
 
@@ -16,51 +22,50 @@ const benefitsData = [
   {
     number: "01",
     title: "Flexible Learning Schedule",
-    description: "Learn at your own pace and on your own schedule.",
+    description:
+      "Fit your coursework around your existing commitments and obligations.",
   },
   {
     number: "02",
-    title: "Updated Curriculum",
-    description: "Access courses with up-to-date content.",
+    title: "Expert Instruction",
+    description:
+      "Learn from industry experts who have hands-on experience in design and development..",
   },
   {
     number: "03",
-    title: "Interactive Learning Environment",
+    title: "Diverse Course Offerings",
     description:
-      "Collaborate with fellow students, exchanging ideas and feedback.",
+      "Explore a wide range of design and development courses covering various topics.",
   },
   {
     number: "04",
-    title: "Flexible Learning Schedule",
-    description: "Learn at your own pace and on your own schedule.",
+    title: "Updated Curriculum",
+    description:
+      "Access courses with up-to-date content reflecting the latest trends and industry practices.",
   },
   {
     number: "05",
-    title: "Expert Instruction",
+    title: "Practical Projects and Assignments",
     description:
-      "Learn from experienced instructors with a wealth of knowledge in design and development.",
+      "Develop a portfolio showcasing your skills and abilities to potential employers.",
   },
   {
     number: "06",
-    title: "Practical Projects and Assignments",
+    title: "Interactive Learning Environment",
     description:
-      "Develop a portfolio showcasing your skills and accomplishments.",
-  },
-  {
-    number: "07",
-    title: "Diverse Course Offerings",
-    description:
-      "Choose from a variety of courses to suit your interests and goals.",
+      "Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding.",
   },
 ];
 
 const Benefits = () => {
   return (
-    <div className="benefits">
-      {benefitsData.map((benefit, index) => (
-        <BenefitCard key={index} {...benefit} />
-      ))}
-    </div>
+    <>
+      <div className="benefits">
+        {benefitsData.map((benefit, index) => (
+          <BenefitCard key={index} {...benefit} />
+        ))}
+      </div>
+    </>
   );
 };
 

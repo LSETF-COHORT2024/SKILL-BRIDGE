@@ -40,7 +40,7 @@ function CourseCard({
   );
 }
 
-function App() {
+function CoursesCard() {
   const courses = [
     {
       title: "Web Design Fundamentals",
@@ -117,4 +117,4 @@ function App() {
   );
 }
 
-export  default App ;
+export  default CoursesCard ;

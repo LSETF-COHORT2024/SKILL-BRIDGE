@@ -1,0 +1,52 @@
+/* BenefitsSection.css */
+
+/* Section container */
+.page-headers {
+  /* background-color: #f9f9f9; */
+  padding: 20px;
+  /* border-radius: 8px; */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+/* Title */
+.header-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--gray15);
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.title-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Text */
+.header-text {
+  font-size: 15px;
+  color: var(--gray35);
+  line-height: 1.5;
+  text-align: left;
+  max-width: 80%;
+}
+
+/* View All button */
+.view-all-button {
+  background-color: var(--white99);
+  color: var(gray15);
+  align-items: start;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  transition: background-color 0.3s ease;
+  height: 30px;
+  max-width: 20%;
+}
+
+.view-all-button:hover {
+  background-color: var(--orange50);
+  color: var(--white);
+}

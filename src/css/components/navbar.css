@@ -1,14 +1,15 @@
 /* Navbar styles */
 .navbar {
-  background-color: var(--white); /* Use custom white color */
+  /* background-color: var(--white); Use custom white color */
   color: var(--gray15); /* Use custom darker gray color */
-  padding: 1rem 0;
+  padding: 1rem;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  margin-top: 50px;
 }
 
 /* Navbar container */
@@ -18,12 +19,12 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  /* margin-top: ; */
 }
 
 /* Logo styles */
 /* .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+ width:;
 } */
 
 /* .logo a {
@@ -44,7 +45,7 @@
   margin-right: 25rem;
 }
 
-.nav-links a {
+.nav-links  {
   display: inline-block; /* Ensure elements are displayed as blocks */
   color: var(--gray15); /* Use custom darker gray color */
   text-decoration: none;
@@ -56,8 +57,11 @@
   text-align: center;
   cursor: pointer;
 }
+.logo {
+  width: 40%;
+}
 
-.nav-links a:hover{
+.nav-links nav.links:hover {
   background-color: var(--orange50);
   color: var(--white95);
 }
@@ -80,8 +84,8 @@
 
 .button:hover {
   background-color: var(--orange50);
-  /* cursor: pointer;
-  color: var(--white95); */
+  cursor: pointer;
+  color: var(--white95);
 }
 
 /* Responsive styles */

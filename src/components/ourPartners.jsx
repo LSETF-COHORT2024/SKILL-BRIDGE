@@ -2,6 +2,7 @@ import React from "react";
 import "../css/components/ourPartners.css";
 import "../css/styleguide.css";
 
+
 const Logo = ({ cloudinaryUrl, alt, link, ...props }) => (
   <a
     href={link}

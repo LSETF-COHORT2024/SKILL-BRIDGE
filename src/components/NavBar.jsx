@@ -1,50 +1,57 @@
-import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
-import "../css/components/navbar.css"; // Import your external CSS file for styling
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import Form from "react-bootstrap/Form";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import "../css/components/navbar.css";
+import "../css/styleguide.css";
 
-const Navbar = () => {
-  // State to toggle the menu
-  const [isMenuOpen, setMenuOpen] = useState(false);
-
-  // Function to toggle the menu state
-  const toggleMenu = () => {
-    setMenuOpen(!isMenuOpen);
-  };
-
+function NavScrollExample() {
   return (
-    <nav className="navbar">
-      <div className="navbar-container">
-        {/* Logo */}
-        <div className="logo">
-          <img src="https://res.cloudinary.com/dgtsw62j3/image/upload/v1706884147/E-Learning%20Educational/Logo_1_dkyiun.png" />
-        </div>
-
-        {/* Hamburger Icon */}
-        <div className="menu-toggle" onClick={toggleMenu}>
-          <FontAwesomeIcon icon={isMenuOpen ? faTimes : faBars} />
-        </div>
-
-        {/* Navigation Links */}
-        <div className={isMenuOpen ? "nav-links show" : "nav-links"}>
-          <a href="/home">Home</a>
-          <a href="/courses">Courses</a>
-          <a href="/about">About Us</a>
-          <a href="/pricing">Pricing</a>
-          <a href="/contact">Contact</a>
-        </div>
-
-        {/* Action Buttons */}
-        <div className={isMenuOpen ? "nav-actions show" : "nav-actions"}>
-          <a href="/signup" className="button">
-            Sign Up
-          </a>
-          <a href="/login" className="button">
-            Login
-          </a>
-        </div>
-      </div>
-    </nav>
+    <Navbar expand="lg">
+      <Container fluid>
+        <Navbar.Brand href="#">
+          <img
+            src="https://res.cloudinary.com/dgtsw62j3/image/upload/v1706884147/E-Learning%20Educational/Logo_1_dkyiun.png"
+            alt="logo"
+            width={40}
+          />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: "100px" }}
+            navbarScroll
+          >
+            <Nav.Link href="/Home" className="nav-links">
+              Home
+            </Nav.Link>
+            <Nav.Link href="/Course" className="nav-links">
+              Course
+            </Nav.Link>
+            <Nav.Link href="/About Us" className="nav-links">
+              About Us
+            </Nav.Link>
+            <Nav.Link href="/Pricing" className="nav-links">
+              Pricing
+            </Nav.Link>
+            <Nav.Link href="/Contact" className="nav-links">
+              Contact
+            </Nav.Link>
+          </Nav>
+          <div className="btn ">
+            <a href="/signup" className="button">
+              Sign Up
+            </a>
+            <a href="/login" className="button">
+              Login
+            </a>
+          </div>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
-};
-export default Navbar;
+}
+
+export default NavScrollExample;

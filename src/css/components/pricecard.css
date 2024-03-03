@@ -1,15 +1,15 @@
-.price-cards {
+.price-cards-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 -15px;
+  background-color: #fff;
 }
 
 .price-card {
-  background-color: #f5f5f5;
+  background-color: var(--white99);
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  flex-basis: calc(33.333% - 30px);
   margin: 15px;
   padding: 20px;
   text-align: center;
