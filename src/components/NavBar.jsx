@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import "../css/components/navbar.css";
 import "../css/styleguide.css";
 
-function NavBar() {
+function Navbar() {
   return (
     <Navbar expand="lg">
       <Container fluid>
@@ -54,4 +54,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Navbar;
