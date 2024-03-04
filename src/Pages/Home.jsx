@@ -1,6 +1,6 @@
 import React from "react";
 import TopNav from "../components/TopNav";
-import Navbar from "../components/NavBar";
+import NavBar from "../components/NavBar";
 import Hero from "../components/Hero";
 import OurPartners from "../components/ourPartners";
 import "../css/home/home.css";
@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <TopNav />
-      <Navbar />
+      <NavBar />
       <div className="body">
         <Hero />
         <OurPartners />
