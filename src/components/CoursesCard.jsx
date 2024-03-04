@@ -76,11 +76,11 @@ function CoursesCard() {
         <div className="course-card" key={course.title}>
           <img src={course.image} alt={course.title} className="course-image" />
           <div className="course-detail">
+            <p className="course-duration">{course.duration}</p>
+            <p className="course-level">{course.level}</p>{" "}
+            <p className="course-instructor">By {course.instructor}</p>
             <h3 className="course-title">{course.title}</h3>
             <p className="course-description">{course.description}</p>
-            <p className="course-instructor">By {course.instructor}</p>
-            <p className="course-duration">{course.duration}</p>
-            <p className="course-level">{course.level}</p>
             <button className="course-button">Get it Now</button>
           </div>
         </div>
