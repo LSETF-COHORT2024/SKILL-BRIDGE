@@ -1,6 +1,6 @@
 import React from "react";
 import TopNav from "../components/TopNav";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavBar";
 import Hero from "../components/Hero";
 import OurPartners from "../components/ourPartners";
 import "../css/home/home.css";
