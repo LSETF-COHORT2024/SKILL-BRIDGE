@@ -4,17 +4,23 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import OurPartners from "../components/ourPartners";
 import "../css/home/home.css";
-// import HeroImg from "../components/HeroImg";
+import SubPage from "../components/SubPage";
+import HeroImg from "../components/HeroImg";
+import CoursesCard from "../components/CoursesCard";
+import CourseTest from "../components/CourseTest";
 
 const Home = () => {
   return (
     <>
       <TopNav />
+      <Navbar />
       <div className="body">
-        <Navbar />
         <Hero />
         <OurPartners />
-        {/* <HeroImg /> */}
+        <HeroImg />
+        <SubPage />
+        <CoursesCard />
+        {/* <CourseTest /> */}
       </div>
     </>
   );

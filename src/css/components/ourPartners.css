@@ -4,14 +4,14 @@
   /* max-width: 75rem; */
   align-items: center;
   top: 0;
-  position: fixed;
+  /* position: fixed; */
   margin: 1rem;
-  padding: 25rem;
+  /* padding: 25rem; */
 }
 
 .column {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .logo {
@@ -22,5 +22,5 @@
 }
 
 .logo img {
-  width: 10rem;
+  width: 7rem;
 }

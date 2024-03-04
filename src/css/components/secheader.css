@@ -28,7 +28,7 @@
   color: var(--gray35);
   line-height: 1.5;
   text-align: left;
-  max-width: 80%;
+  max-width: 70%;
 }
 
 /* View All button */
@@ -43,7 +43,7 @@
   float: right;
   transition: background-color 0.3s ease;
   height: 30px;
-  max-width: 20%;
+  max-width: 30%;
 }
 
 .view-all-button:hover {

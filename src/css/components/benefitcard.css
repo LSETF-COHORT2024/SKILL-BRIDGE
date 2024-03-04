@@ -2,11 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 15px;
+  margin: 0 10px;
+  align-content: right;
+  /* padding-bottom: 50px; */
 }
 
 .benefit-card {
-  background-color: var(--white);
+  background-color: var(--white97);
   border-radius: 5px;
   /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
   margin: 15px;
@@ -20,24 +22,101 @@
   border-radius: 50%;
   color: var(--gray15);
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 600;
   height: 60px;
   line-height: 60px;
   margin: 0 auto 10px;
-  /* float: right; */
+  margin-right: 10px;
   width: 60px;
-  text-align: right;
 }
 
 .benefit-title {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 16px;
+  /* font-weight: bold; */
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .benefit-description {
-  color: #666;
-  font-size: 16px;
+  color: var (--gray30);
+  font-size: 14px;
   line-height: 1.5;
   margin-bottom: 0;
+  text-align: left;
+}
+
+.arrow-button {
+  background-color: var(--white);
+  color: var(--orange50);
+  border: none;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: auto;
+  float: right;
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+  .benefit-card {
+    padding: 5rem;
+    margin: 30px;
+    display: initial;
+    /* justify-content: space-between; */
+    margin: 10px 50px;
+  }
+
+  /* .benefit-number {
+    font-size: 20px;
+    line-height: 50px;
+  } */
+  /* 
+  .benefit-text {
+    line-height: 10px;
+  } */
+  
+  .benefit-title {
+    font-size: 14px;
+  } 
+  /* .benefit-description {
+    font-size: 10px;
+  } */
+}
+
+@media (max-width: 450px) {
+  .benefits {
+    display: initial;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 10px;
+    font-size: 1px;
+  }
+
+  .benefit-card {
+    padding: 50px;
+    margin: 30px;
+  }
+
+  .benefit-number {
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  .benefit-text {
+    line-height: 10px;
+  }
+
+  .benefit-title {
+    font-size: 14px;
+  }
+  .benefit-description {
+    font-size: 10px;
+  }
+  .arrow-button {
+    margin: 1.5rem;
+  }
 }

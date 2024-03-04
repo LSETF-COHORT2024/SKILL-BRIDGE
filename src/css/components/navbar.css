@@ -3,7 +3,7 @@
   /* background-color: var(--white); Use custom white color */
   color: var(--gray15); /* Use custom darker gray color */
   padding: 1rem;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -45,7 +45,7 @@
   margin-right: 25rem;
 }
 
-.nav-links  {
+.nav-links {
   display: inline-block; /* Ensure elements are displayed as blocks */
   color: var(--gray15); /* Use custom darker gray color */
   text-decoration: none;

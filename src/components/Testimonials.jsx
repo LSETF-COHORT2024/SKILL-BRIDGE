@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/components/testimonials.css";
 import "../css/styleguide.css";
+import SecHeader from "./SecHeader";
 
 const testimonialsData = [
   {
@@ -61,12 +62,10 @@ const Testimonials = () => {
       <div className="testimonials">
         <div className="header">
           <div className="header-text">
-            <h3>Our Testimonials</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam
-              eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac
-              cum eget habitasse in velit fringilla feugiat senectus in.
-            </p>
+            {/* <SecHeader
+              headerTitle="Testimonial"
+              headerText="Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum  eget habitasse in velit fringilla feugiat senectus in. asd"
+            /> */}
           </div>
         </div>
         {testimonialsData.map((testimonial, index) => (

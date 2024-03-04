@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/components/coursescard.css";
+import "../css/components/course-car.css";
 
 function CoursesCard() {
   const courses = [
@@ -24,48 +24,44 @@ function CoursesCard() {
         "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX).",
     },
     {
-      title: "Mobile App Development",
-      instructor: "David Brown",
-      duration: "8 Weeks",
+      title: "UI/UX Design",
+      instructor: "Emily Johnson",
+      duration: "6 Weeks ",
       level: "Intermediate",
-
       image:
-        "https://res.cloudinary.com/dgtsw62j3/image/upload/v1704280217/E-Learning%20Educational/53ccc90e-fa79-4cfa-9781-56d7600e8503_lgafde.png",
+        "https://res.cloudinary.com/dgtsw62j3/image/upload/v1704278772/E-Learning%20Educational/82c7271a-8fb6-48a3-9f89-74ce5a0be659_nx8msi.png",
       description:
-        "Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin.",
+        "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX).",
     },
     {
-      title: "Graphic Design for Beginners",
-      instructor: "Sarah Thompson",
-      duration: "10 Weeks",
-      level: "Beginners",
-
-      image:
-        "https://res.cloudinary.com/dgtsw62j3/image/upload/v1704280260/E-Learning%20Educational/55c7d5cd-76e5-4485-9f9b-d3d928bd4c8e_ulhjxb.png",
-      description:
-        "Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media.",
-    },
-    {
-      title: "Front-End Web Development",
-      instructor: "Michael Adams",
-      duration: "10 Weeks",
+      title: "UI/UX Design",
+      instructor: "Emily Johnson",
+      duration: "6 Weeks ",
       level: "Intermediate",
-
       image:
-        "https://res.cloudinary.com/dgtsw62j3/image/upload/v1704280494/E-Learning%20Educational/423d34ca-6b17-403b-bfa0-5e607c7d56b1_xilhyc.png",
+        "https://res.cloudinary.com/dgtsw62j3/image/upload/v1704278772/E-Learning%20Educational/82c7271a-8fb6-48a3-9f89-74ce5a0be659_nx8msi.png",
       description:
-        "Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites..",
+        "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX).",
     },
     {
-      title: "Advanced JavaScript",
-      instructor: "Jennifer Wilson",
-      duration: "6 Weeks",
-      level: "Advanced",
-
+      title: "UI/UX Design",
+      instructor: "Emily Johnson",
+      duration: "6 Weeks ",
+      level: "Intermediate",
       image:
-        "https://res.cloudinary.com/dgtsw62j3/image/upload/v1704280557/E-Learning%20Educational/a2f789f3-4201-419a-9f0f-c884cbfaaa26_mi2pbw.png",
+        "https://res.cloudinary.com/dgtsw62j3/image/upload/v1704278772/E-Learning%20Educational/82c7271a-8fb6-48a3-9f89-74ce5a0be659_nx8msi.png",
       description:
-        "Take your JavaScript skills to the next level. Explore advanced concepts like closures, prototypes, asynchronous programming, and ES6 features. Build complex applications with confidence.",
+        "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX).",
+    },
+    {
+      title: "UI/UX Design",
+      instructor: "Emily Johnson",
+      duration: "6 Weeks ",
+      level: "Intermediate",
+      image:
+        "https://res.cloudinary.com/dgtsw62j3/image/upload/v1704278772/E-Learning%20Educational/82c7271a-8fb6-48a3-9f89-74ce5a0be659_nx8msi.png",
+      description:
+        "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX).",
     },
     // Add more courses here
   ];

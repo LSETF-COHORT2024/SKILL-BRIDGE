@@ -1,19 +1,23 @@
 import React from "react";
 import "../css/components/benefitcard.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const BenefitCard = ({ number, title, description }) => {
   return (
     <>
-
-        <div className="benefit-card">
-          <div benefit-num>
-            <div className="benefit-number">{number}</div>
-          </div>
-          <div>
-            <h3 className="benefit-title">{title}</h3>
-            <p className="benefit-description">{description}</p>
-          </div>
+      <div className="benefit-card">
+        <div benefit-num>
+          <div className="benefit-number">{number}</div>
         </div>
+        <div className="benefit-text">
+          <h3 className="benefit-title">{title}</h3>
+          <p className="benefit-description">{description}</p>
+        </div>
+        <button className="arrow-button">
+          <FontAwesomeIcon icon={faArrowRight} />
+        </button>
+      </div>
     </>
   );
 };
