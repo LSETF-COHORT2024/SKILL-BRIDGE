@@ -11,77 +11,86 @@ const PriceCard = () => {
         <h2 className="price">
           $0<span>/month</span>
         </h2>
-        <h6>Available Features</h6>
-        <ul className="features-list">
-          <li>
-            <FontAwesomeIcon icon={faCheck} className="icon" />
-            Access to selected free courses.
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faCheck} className="icon" />
-            Limited course materials and .
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faCheck} className="icon" />
-            Basic community support.
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faCheck} className="icon" />
-            No certification upon completion.
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faCheck} className="icon" />
-            Ad-supported platform.
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faTimes} className="icon" />
-            Access to exclusive Pro Plan community forums.
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faTimes} className="icon" />
-            Early access to new courses and updates.
-          </li>
-        </ul>
-        <button className="get-started-button">Get Started</button>
+        <div className="features">
+          {/* <h6 className="feature-heading">Available Features</h6> */}
+          <ul className="features-list">
+          <h6 className="feature-heading">Available Features</h6>
+
+            <li>
+              <FontAwesomeIcon icon={faCheck} className="icon" />
+              Access to selected free courses.
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCheck} className="icon" />
+              Limited course materials and .
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCheck} className="icon" />
+              Basic community support.
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCheck} className="icon" />
+              No certification upon completion.
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCheck} className="icon" />
+              Ad-supported platform.
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faTimes} className="icon" />
+              Access to exclusive Pro Plan community forums.
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faTimes} className="icon" />
+              Early access to new courses and updates.
+            </li>
+          </ul>
+
+          <button className="get-started-button">Get Started</button>
+        </div>
       </div>
+
 
       <div className="pricing-card">
         <h6 className="plan">Pro Plan</h6>
         <h2 className="price">
           $79<span>/month</span>
         </h2>
-        <h6>Available Features</h6>
+        <div className="features">
+          {/* <h6 className="feature-heading">Available Features</h6> */}
+          <ul className="features-list">
+            <h6 className="feature-heading">Available Features</h6>
 
-        <ul className="features-list">
-          <li>
-            <FontAwesomeIcon icon={faCheck} className="icon" />
-            Unlimited access to all courses.
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faCheck} className="icon" /> Unlimited course
-            materials and resources.
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faCheck} className="icon" /> Priority support
-            with instructors.
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faCheck} className="icon" /> Course
-            completion certificates.
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faCheck} className="icon" /> Ad-free
-            experience.
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faCheck} className="icon" /> Access to
-            exclusive Pro Plan community forums.
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faCheck} className="icon" /> Early access to
-            new courses and updates.
-          </li>
-        </ul>
+            <li>
+              <FontAwesomeIcon icon={faCheck} className="icon" />
+              Unlimited access to all courses.
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCheck} className="icon" /> Unlimited
+              course materials and resources.
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCheck} className="icon" /> Priority
+              support with instructors.
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCheck} className="icon" /> Course
+              completion certificates.
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCheck} className="icon" /> Ad-free
+              experience.
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCheck} className="icon" /> Access to
+              exclusive Pro Plan community forums.
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faCheck} className="icon" /> Early access
+              to new courses and updates.
+            </li>
+          </ul>
+        </div>
         <button className="get-started-button">Get Started</button>
       </div>
     </div>

@@ -9,6 +9,7 @@ import HeroImg from "../components/HeroImg";
 import CoursesCard from "../components/CoursesCard";
 import CourseTest from "../components/CourseTest";
 import Testimonials from "../components/Testimonials";
+import PriceCard from "../components/PriceCard";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         <SubPage />
         <CoursesCard />
         <Testimonials />
+        <PriceCard/>
       </div>
     </>
   );

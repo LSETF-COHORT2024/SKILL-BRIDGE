@@ -19,7 +19,7 @@ function App() {
       {/* <Hero /> */}
       {/* <OurPartners/> */}
       {/* <Benefits/> */}
-      {/* <Home /> */}
+      <Home />
       {/* <SubPage/> */}
       {/* <CourseCard/> */}
     </div>
