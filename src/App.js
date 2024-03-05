@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       {/* Hello World */}
-      <PriceCard/>
+      {/* <PriceCard/> */}
       {/* <Hero /> */}
       {/* <OurPartners/> */}
       {/* <Benefits/> */}
