@@ -1,24 +1,23 @@
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { Navbar as BootstrapNavbar, Nav } from "react-bootstrap"; // Import Nav component
 import "../css/components/navbar.css";
 import "../css/styleguide.css";
 
-function NavBar() {
+function Navigation() {
   return (
-    <Navbar expand="lg">
+    <BootstrapNavbar expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">
+        <BootstrapNavbar.Brand href="#">
           <img
             src="https://res.cloudinary.com/dgtsw62j3/image/upload/v1706884147/E-Learning%20Educational/Logo_1_dkyiun.png"
             alt="logo"
             width={40}
           />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        </BootstrapNavbar.Brand>
+        <BootstrapNavbar.Toggle aria-controls="navbarScroll" />
+        <BootstrapNavbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: "100px" }}
@@ -48,10 +47,10 @@ function NavBar() {
               Login
             </a>
           </div>
-        </Navbar.Collapse>
+        </BootstrapNavbar.Collapse>
       </Container>
-    </Navbar>
+    </BootstrapNavbar>
   );
 }
 
-export default NavBar;
+export default Navigation;

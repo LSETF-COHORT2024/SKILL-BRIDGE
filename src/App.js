@@ -5,20 +5,21 @@ import Home from "./Pages/Home";
 // import Benefits from "./components/BenefitCard";
 // import OurPartners from "./components/ourPartners";
 // import Hero from "./components/Hero";
-// import SecHeader from './components/SecHeader'
+import PriceCard from "./components/PriceCard";
 import CourseCard from "./components/CoursesCard";
 // import  Testimonials from "./components/Testimonials";
 import "./css/styleguide.css";
+import Pricing from "./components/PriceCard";
 
 function App() {
   return (
     <div className="App">
       {/* Hello World */}
-      {/* <SecHeader /> */}
+      <PriceCard/>
       {/* <Hero /> */}
       {/* <OurPartners/> */}
       {/* <Benefits/> */}
-      <Home />
+      {/* <Home /> */}
       {/* <SubPage/> */}
       {/* <CourseCard/> */}
     </div>

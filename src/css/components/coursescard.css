@@ -1,21 +1,22 @@
 .course-cards-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns per row */
-  gap: 20px;
+  gap: 10px;
 }
 
 .course-card {
   display: flex;
   flex-direction: column;
-  background-color:var(--white);
-  border: 1px solid #e0e0e0;
+  background-color: var(--white99);
+  /* border: 1px solid #f1f1f3; */
+  border: none;
   border-radius: 8px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .course-image {
-  width: 100%;
-  height: auto;
+  width: 40%;
+  /* height: auto; */
   border-radius: 8px;
 }
 
@@ -34,22 +35,24 @@
 
 .course-instructor,
 .course-duration,
-.course-level {
+.course-level{
   font-size: 14px;
   margin-bottom: 5px;
 }
 
-.course-button {
-  background-color: #4caf50;
-  color: #ffffff;
-  border: none;
+.course-button{
+  background-color: var(--white97);
+  color: var(--gray15);
+  /* border: none; */
+  border: var(--white95);
   border-radius: 4px;
-  padding: 10px 20px;
+  padding: 10px;
   font-size: 16px;
   cursor: pointer;
   width: 100%;
 }
 
-.course-button:hover {
-  background-color: #45a049;
+.course-button:hover{
+  background-color: var(--orange50);
+  color: var(--white);
 }

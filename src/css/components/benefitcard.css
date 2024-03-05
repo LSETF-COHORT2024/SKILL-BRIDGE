@@ -56,6 +56,10 @@
   padding-left: 10px;
   margin: auto;
   float: right;
+  /* rotate: -30deg; */
+}
+.rotate-up {
+  transform: rotate(-30deg);
 }
 
 @media (max-width: 991px) {
@@ -78,10 +82,10 @@
   .benefit-text {
     line-height: 10px;
   } */
-  
+
   .benefit-title {
     font-size: 14px;
-  } 
+  }
   /* .benefit-description {
     font-size: 10px;
   } */

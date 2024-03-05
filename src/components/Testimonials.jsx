@@ -62,10 +62,10 @@ const Testimonials = () => {
       <div className="testimonials">
         <div className="header">
           <div className="header-text">
-            {/* <SecHeader
+            <SecHeader
               headerTitle="Testimonial"
               headerText="Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum  eget habitasse in velit fringilla feugiat senectus in. asd"
-            /> */}
+            />
           </div>
         </div>
         {testimonialsData.map((testimonial, index) => (

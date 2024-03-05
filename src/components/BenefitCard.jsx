@@ -15,7 +15,7 @@ const BenefitCard = ({ number, title, description }) => {
           <p className="benefit-description">{description}</p>
         </div>
         <button className="arrow-button">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon icon={faArrowRight} className="rotate-up" />
         </button>
       </div>
     </>

@@ -1,6 +1,6 @@
 import React from "react";
 import TopNav from "../components/TopNav";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/Navigation";
 import Hero from "../components/Hero";
 import OurPartners from "../components/ourPartners";
 import "../css/home/home.css";
@@ -8,6 +8,7 @@ import SubPage from "../components/SubPage";
 import HeroImg from "../components/HeroImg";
 import CoursesCard from "../components/CoursesCard";
 import CourseTest from "../components/CourseTest";
+import Testimonials from "../components/Testimonials";
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
         <HeroImg />
         <SubPage />
         <CoursesCard />
-        {/* <CourseTest /> */}
+        <Testimonials />
       </div>
     </>
   );
