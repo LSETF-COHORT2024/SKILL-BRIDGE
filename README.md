@@ -24,7 +24,7 @@ Skillbridge is an e-learning platform designed to bridge the gap between learner
 
 Skillbridge is a web-based application and can be accessed through a web browser. There is no installation required for users. For developers looking to contribute or customize the platform, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/skillbridge/skillbridge.git`
+1. Clone the repository: `[git clone https://github.com/skillbridge/skillbridge.git](https://github.com/Adeola-oluwa/SkillBridge.git)`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
 

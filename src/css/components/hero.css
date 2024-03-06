@@ -20,11 +20,11 @@
 
 .hero-text h1 span {
   background-color: var(--orange95); /* Use custom variable for orange */
-  padding: 0.5rem;
+  /* padding: 0.2rem; */
   padding-top: 0.1rem;
   /* padding-bottom: 0.2rem; */
-  margin: 1rem;
-  font-size: 2rem;
+  margin: 0.5rem;
+  font-size: 1.5rem;
   border-radius: 3px;
   align-items: center;
 }
@@ -35,7 +35,7 @@
 
 hero-text strong,
 h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--gray10);
   font-weight: 600;
 }
@@ -43,18 +43,20 @@ h1 {
 .subtext {
   color: var(--gray15);
   font-size: 1.5rem;
-  /* text-align: center;   */
+  text-align: center;
   font-weight: 500;
-  /* line-height: 50px; */
+  line-height: 40px;
 }
 .sub {
   color: var(--gray15);
   font-size: 0.9rem;
   font-weight: 400px;
+  text-align: center;
 }
 
 .buttons {
   margin: 2rem;
+  text-align: center;
 }
 
 .explore,
