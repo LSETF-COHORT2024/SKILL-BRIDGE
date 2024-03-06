@@ -9,7 +9,7 @@
   right: 0;
   z-index: 1000;
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 /* Navbar container */
@@ -61,7 +61,7 @@
   width: 40%;
 }
 
-.nav-links nav.links:hover {
+.nav-links nav:hover {
   background-color: var(--orange50);
   color: var(--white95);
 }

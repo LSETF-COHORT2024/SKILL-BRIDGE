@@ -35,6 +35,7 @@ const testimonialsData = [
   },
   //   testimonials objects
 ];
+
 const Testimonial = ({ name, text, image, story }) => {
   return (
     <div className="testimonial">

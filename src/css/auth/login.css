@@ -1,0 +1,66 @@
+.login-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .testimonials {
+    width: 50%;
+    padding: 20px;
+} */
+
+.login-form {
+    width: 40%;
+    padding: 20px;
+}
+
+.login-form {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input[type=email],
+.login-form input[type=password] {
+   width: calc(100% - 20px);
+   padding: 10px;
+   margin-bottom: 20px; 
+}
+
+.forgot-password {
+   text-align:right; 
+   margin-bottom :20px; 
+   cursor:pointer; 
+   color:#FFA500; /* Similar to orange */
+}
+
+.login-button,
+.google-login-button {
+     width :100%; 
+     padding :10px; 
+     border:none ;  
+     border-radius :5px ;
+      cursor:pointer ;
+ }
+
+ .login-button{
+      background-color:#FFA500 ; /* Orange */
+      color:white ;
+ }
+
+ .google-login-button{
+      background-color:white ;
+      color:black ;
+      border :1 px solid #ccc ;  
+ }
+

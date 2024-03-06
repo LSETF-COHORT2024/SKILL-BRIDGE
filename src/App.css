@@ -2,7 +2,7 @@
   font-family: var(--font);
   top: 0;
   position: relative;
-  background-color: var(--white95);
+  /* background-color: var(--white95); */
 }
 
 .App {
@@ -13,3 +13,21 @@
 }
 
 /* @media (prefers-reduced-motion: no-preference)  */
+
+@media (max-width: 768px){
+*{
+  font-size: 18px;
+}
+}
+
+/* @media (max-width: 991px){
+*{
+  font-size: 30px;
+}
+} */
+
+@media (max-width: 450px){
+*{
+  font-size: 14px;
+}
+}

@@ -10,12 +10,14 @@ import CoursesCard from "../components/CoursesCard";
 import CourseTest from "../components/CourseTest";
 import Testimonials from "../components/Testimonials";
 import PriceCard from "../components/PriceCard";
+import Footer from "../components/Footer";
+import FaqCard from "../components/FaqCard";
+import TopNavbars from "../components/TopNavbars";
 
 const Home = () => {
   return (
     <>
-      <TopNav />
-      <NavBar />
+    <TopNavbars/>
       <div className="body">
         <Hero />
         <OurPartners />
@@ -23,8 +25,10 @@ const Home = () => {
         <SubPage />
         <CoursesCard />
         <Testimonials />
-        <PriceCard/>
+        <PriceCard />
+        <FaqCard />
       </div>
+      <Footer />
     </>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/components/coursescard.css";
 
-function CoursesCard() {
+const CoursesCard = () => {
   const courses = [
     {
       title: "Web Design Fundamentals",

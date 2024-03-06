@@ -1,0 +1,29 @@
+/* src/components/AboutSkillbridge.css */
+
+.about-section {
+  /* background-color: #f9f9f9; */
+  padding: 20px;
+  /* border: 1px solid #ddd; */
+  margin-bottom: 30px;
+  /* margin-top: 20px; */
+}
+
+.about-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+  display: flex;
+}
+
+.about-section p {
+  font-size: 13px;
+  color: var(--gray30);
+  align-items: left;
+  display: flex;
+}
+
+.achievement {
+  text-align: left;
+  padding: 10px;
+}

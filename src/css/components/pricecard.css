@@ -1,4 +1,43 @@
 /* PricingPage.css */
+/*  */
+
+.pricing-header {
+  justify-content: space-around;
+}
+.pricing-header h2 {
+  font-size: 30px;
+  text-align: left;
+}
+.pricing-header-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-header p {
+  font-size: 15px;
+  text-align: left;
+}
+
+.button-header {
+  display: flex;
+  padding: 5px;
+  margin: 1px;
+}
+
+.btn {
+  padding: 5px 15px;
+  /* margin-right: 10px; */
+}
+
+.monthly {
+  background-color: orange;
+  color: white;
+}
+
+.yearly {
+  border: solid orange;
+  color: orange;
+}
 
 .pricing-container {
   display: flex;
@@ -13,7 +52,7 @@
 .pricing-card {
   background-color: var(--white95);
   /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
-  padding: 40px;
+  padding: 20px;
   border-radius: 6px;
   text-align: center;
 }
@@ -41,6 +80,11 @@
   display: flex;
 }
 
+.features {
+  margin-top: 10px;
+  /* padding: 10px; */
+}
+
 .features ul,
 li,
 h6,
@@ -48,7 +92,7 @@ button {
   border-radius: 6px;
   background-color: var(--white);
   margin: 10px;
-  padding: 10px 0px;
+  /* padding: 10px 0px; */
 }
 
 .icon {
@@ -70,9 +114,7 @@ button {
 .features-list li {
   color: var(--gray30);
   margin-bottom: 10px;
-  font-size: 15px;
-  align-items: left;
-  justify-content: left;
+  font-size: 13px;
 }
 
 .get-started-button {
@@ -82,13 +124,96 @@ button {
   padding: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
-  width: 100%;
-  margin: 0px;
+  width: 95%;
+  margin-top: 0px;
   border-radius: 0;
-  border-bottom-right-radius: ;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 .get-started-button:hover {
   background-color: var(--white99);
   color: var(--gray15);
+}
+
+/*@media query*/
+@media (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+  .pricing-header h2 {
+    font-size: 20px;
+  }
+  .button-header {
+    gap: 5px;
+  }
+  .pricing-header p {
+    font-size: 14px;
+  }
+  .btn {
+    padding: auto;
+    margin: auto;
+  }
+  .pricing-container {
+    padding: 10px;
+    margin: 15px;
+    gap: 20px;
+    /* display: block; */
+  }
+  .plan {
+    font-size: 16px;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+  .features-list li {
+    font-size: 12px;
+  }
+
+  .icon {
+    padding: 6px;
+    margin: 4px;
+  }
+}
+
+@media (max-width: 450px) {
+  .pricing-header h2 {
+    font-size: 16px;
+  }
+  .button-header {
+    gap: 3px;
+  }
+
+  .pricing-header p {
+    font-size: small;
+  }
+  .btn {
+    padding: auto;
+    margin: auto;
+  }
+  .pricing-container {
+    padding: 10px;
+    margin: 5px;
+    display: block;
+  }
+
+  .plan {
+    font-size: 13px;
+  }
+  .price {
+    font-size: 16px;
+  }
+
+  .icon {
+    padding: 5px;
+    margin: 3px;
+  }
+
+  .features-list li {
+    font-size: 10px;
+  }
+  .get-started-button {
+    width: 90%;
+  }
 }

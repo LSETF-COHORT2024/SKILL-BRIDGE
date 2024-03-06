@@ -74,152 +74,68 @@ h1 {
   background-color: var(--white95);
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 768px) {
+  .hero-container {
+    margin-inline: 2rem; /* Adjust margin for smaller screens */
+    padding: 3rem; /* Adjust padding */
+    padding-top: 3rem;
+    margin-top: 50px; /* Adjust margin-top */
+  }
+
   .hero-text {
-    border-radius: 5px;
-    padding: 1rem 2rem;
+    padding: 2rem; /* Adjust padding */
     padding-top: 0.5rem;
-    margin-right: 5rem;
-    margin-left: 5rem;
+    margin-right: 2rem; /* Adjust margin-right */
+    margin-left: 2rem; /* Adjust margin-left */
     align-items: center;
   }
 
   h1 {
-    font-size: 1rem;
+    font-size: 1.5rem; /* Decrease font size for smaller screens */
   }
 
   .hero-text h1 span {
-    /* padding: 5rem; */
     padding-top: 0.1rem;
     padding-bottom: 0.2rem;
     margin: 1rem;
-    font-size: 1rem;
-    border-radius: 2px;
-    align-items: center;
+    font-size: 1rem; /* Decrease font size for smaller screens */
   }
 
   .explore,
   .pricing {
-    padding: 5px;
+    padding: 8px; /* Adjust padding */
   }
 }
 
-.hero-image {
-  max-width: 100%;
-  height: auto;
-}
-
-.responsive-image {
-  width: 100%;
-  height: auto;
-}
-
-/* Max-width 600px */
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
   .hero-container {
-    max-width: 100%;
-    padding: 5rem;
-    padding-top: 5rem;
-    padding-right: 2.5rem;
+    margin-inline: 1rem; /* Adjust margin for smaller screens */
+    padding: 2rem; /* Adjust padding */
+    padding-top: 2rem;
+    margin-top: 30px; /* Adjust margin-top */
   }
 
-  .hero-text h1 {
-    font-size: 1rem;
+  .hero-text {
+    padding: 1rem; /* Adjust padding */
+    padding-top: 0.5rem;
+    margin-right: 1rem; /* Adjust margin-right */
+    margin-left: 1rem; /* Adjust margin-left */
+    align-items: center;
   }
 
-  .subtext {
-    font-size: 1rem;
+  h1 {
+    font-size: 1.2rem; /* Decrease font size for smaller screens */
   }
 
-  .sub {
-    font-size: 0.8rem;
-  }
-} */
-
-/* Min-width 600px and Max-width 768px */
-/* @media only screen and (min-width: 600px) and (max-width: 768px) {
-  .hero-container {
-    max-width: 100%;
-    padding: 5rem;
-    padding-top: 5rem;
-    padding-right: 2.5rem;
+  .hero-text h1 span {
+    padding-top: 0.1rem;
+    padding-bottom: 0.2rem;
+    margin: 0.5rem;
+    font-size: 0.8rem; /* Decrease font size for smaller screens */
   }
 
-  .hero-text h1 {
-    font-size: 3.5rem;
-  }
-
-  .subtext {
-    font-size: 1.2rem;
-  }
-
-  .sub {
-    font-size: 0.9rem;
-  }
-}  */
-
-/* Min-width 768px and Max-width 992px */
-/* @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .hero-container {
-    max-width: 100%;
-    padding: 7rem;
-    padding-top: 7rem;
-    padding-right: 3.5rem;
-  }
-
-  .hero-text h1 {
-    font-size: 4.5rem;
-  }
-
-  .subtext {
-    font-size: 1.3rem;
-  }
-
-  .sub {
-    font-size: 1rem;
+  .explore,
+  .pricing {
+    padding: 5px; /* Adjust padding */
   }
 }
-
-/* Min-width 992px and Max-width 1200px */
-/* @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .hero-container {
-    max-width: 100%;
-    padding: 8rem;
-    padding-top: 8rem;
-    padding-right: 4rem;
-  }
-
-  .hero-text h1 {
-    font-size: 5rem;
-  }
-
-  .subtext {
-    font-size: 1.4rem;
-  }
-
-  .sub {
-    font-size: 1.1rem;
-  }
-} */
-
-/* Min-width 1200px */
-/* @media only screen and (min-width: 1200px) {
-  .hero-container {
-    max-width: 1200px;
-    padding: 10rem;
-    padding-top: 10rem;
-    padding-right: 5rem;
-  }
-
-  .hero-text h1 {
-    font-size: 2rem;
-  }
-
-  .subtext {
-    font-size: 1.5rem;
-  }
-
-  .sub {
-    font-size: 0.9rem;
-  }
-} */

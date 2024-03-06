@@ -49,10 +49,40 @@
   padding: 10px;
   font-size: 16px;
   cursor: pointer;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .course-button:hover{
   background-color: var(--orange50);
   color: var(--white);
+}
+
+/* Responsive styles for max-width: 768px */
+@media only screen and (max-width: 768px) {
+  .course-cards-container {
+    grid-template-columns: repeat(1, 1fr); /* Single column per row */
+  }
+
+  .course-image {
+    width: 100%; /* Full width for smaller screens */
+    margin-bottom: 10px; /* Add margin for better spacing */
+  }
+}
+
+/* Responsive styles for max-width: 450px */
+@media only screen and (max-width: 450px) {
+  .course-card {
+    padding: 8px; /* Adjust padding for smaller screens */
+  }
+
+  .course-title {
+    font-size: 18px; /* Decrease font size for smaller screens */
+  }
+
+  .course-description,
+  .course-instructor,
+  .course-duration,
+  .course-level {
+    font-size: 12px; /* Decrease font size for smaller screens */
+  }
 }

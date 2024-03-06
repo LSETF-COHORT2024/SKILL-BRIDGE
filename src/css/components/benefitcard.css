@@ -67,60 +67,55 @@
 
 @media (max-width: 768px) {
   .benefit-card {
-    padding: 5rem;
-    margin: 30px;
-    display: initial;
-    /* justify-content: space-between; */
-    margin: 10px 50px;
-  }
-
-  /* .benefit-number {
-    font-size: 20px;
-    line-height: 50px;
-  } */
-  /* 
-  .benefit-text {
-    line-height: 10px;
-  } */
-
-  .benefit-title {
-    font-size: 14px;
-  }
-  /* .benefit-description {
-    font-size: 10px;
-  } */
-}
-
-@media (max-width: 450px) {
-  .benefits {
-    display: initial;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 10px;
-    font-size: 1px;
-  }
-
-  .benefit-card {
-    padding: 50px;
-    margin: 30px;
+    padding: 1rem; /* Adjust padding */
+    margin: 1rem; /* Adjust margin */
+    flex-basis: calc(50% - 2rem); /* Two cards per row */
   }
 
   .benefit-number {
-    font-size: 20px;
-    line-height: 50px;
-  }
-
-  .benefit-text {
-    line-height: 10px;
+    font-size: 24px; /* Adjust font size */
+    height: 50px; /* Adjust height */
+    line-height: 50px; /* Adjust line-height */
+    width: 50px; /* Adjust width */
   }
 
   .benefit-title {
-    font-size: 14px;
+    font-size: 14px; /* Adjust font size */
   }
+
   .benefit-description {
-    font-size: 10px;
+    font-size: 12px; /* Adjust font size */
   }
+
   .arrow-button {
-    margin: 1.5rem;
+    margin: 1rem; /* Adjust margin */
+  }
+}
+
+/* Responsive styles for max-width: 450px */
+@media (max-width: 450px) {
+  .benefit-card {
+    padding: 1rem; /* Adjust padding */
+    margin: 1rem; /* Adjust margin */
+    flex-basis: calc(100% - 2rem); /* Single card per row */
+  }
+
+  .benefit-number {
+    font-size: 20px; /* Adjust font size */
+    height: 40px; /* Adjust height */
+    line-height: 40px; /* Adjust line-height */
+    width: 40px; /* Adjust width */
+  }
+
+  .benefit-title {
+    font-size: 12px; /* Adjust font size */
+  }
+
+  .benefit-description {
+    font-size: 10px; /* Adjust font size */
+  }
+
+  .arrow-button {
+    margin: 1rem; /* Adjust margin */
   }
 }

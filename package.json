@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -15,6 +16,7 @@
     "react-dom": "^18.2.0",
     "react-fontawesome-svg-icon": "^1.1.2",
     "react-native-swiper": "^1.6.0",
+    "react-router-dom": "^6.22.2",
     "react-scripts": "^5.0.1",
     "react-swiper": "^0.1.5",
     "swiper": "^11.0.6",

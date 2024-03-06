@@ -24,3 +24,23 @@
 .logo img {
   width: 7rem;
 }
+
+/* Responsive styles for max-width: 768px */
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: row; /* Stack items vertically */
+    align-items: center; /* Center items vertically */
+  }
+
+  .column {
+    flex-direction: row; /* Stack items vertically */
+    align-items: center; /* Center items vertically */
+  }
+}
+
+/* Responsive styles for max-width: 450px */
+@media only screen and (max-width: 450px) {
+  .logo img {
+    width: 2rem; /* Decrease logo size for smaller screens */
+  }
+}
