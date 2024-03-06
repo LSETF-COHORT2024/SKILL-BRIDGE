@@ -21,7 +21,7 @@ const FaqCard = () => {
     <div className="faq-container">
       <h2>Frequently Asked Questions</h2>
       <p>Still have questions? Contact our Team via support@skillbridge.com</p>
-      <a href="#all-faqs">See All FAQs</a>
+      <a href="/FaqCard">See All FAQs</a>
       <div className="faq-list">
         {faqItems.map((item, index) => (
           <div
